@@ -8,11 +8,13 @@ The F2E 前端精神時光屋專題
 3. Axios
 4. Pwa
 
-npx create-react-app schoolchat --template cra-template-pwa
+npx create-react-app week01-Attractions-of-Travel-Navigation --template cra-template-pwa
 
 fetch data 安裝 npm install axios
 
-loading-spinner 安裝 npm install --save react-spinners
+https://www.npmjs.com/package/react-loading-skeleton
+
+skeleton-loading
 
 css 各個瀏覽器排版 安裝 npm install save normalize.css
 
