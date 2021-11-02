@@ -22,5 +22,7 @@ emotion 安裝 npm install --save @emotion/core @emotion/styled
 
 安裝路由 npm install react-router-dom
 
+安裝framer-motion npm install framer-motion
+
 tailwinds 安裝   npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
 
