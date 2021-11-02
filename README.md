@@ -8,21 +8,29 @@ The F2E 前端精神時光屋專題
 3. Axios
 4. Pwa
 
+建置專案
 npx create-react-app week01-travel-attractions --template cra-template-pwa
 
-fetch data 安裝 npm install axios
+安裝 fetch data  
+npm install axios
 
 https://www.npmjs.com/package/react-loading-skeleton
 
-skeleton-loading 安裝 npm install react-loading-skeleton
+安裝 skeleton-loading 
+npm install react-loading-skeleton
 
-css 各個瀏覽器排版 安裝 npm install save normalize.css
+安裝css 各個瀏覽器排版 
+npm install save normalize.css
 
-emotion 安裝 npm install --save @emotion/core @emotion/styled
+安裝 emotion  
+npm install --save @emotion/core @emotion/styled
 
-安裝路由 npm install react-router-dom
+安裝路由 
+npm install react-router-dom
 
-安裝framer-motion npm install framer-motion
+安裝framer-motion 
+npm install framer-motion
 
-tailwinds 安裝   npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+安裝tailwinds    
+npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
 
