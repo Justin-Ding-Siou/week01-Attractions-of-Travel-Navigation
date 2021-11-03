@@ -14,8 +14,6 @@ npx create-react-app week01-travel-attractions --template cra-template-pwa
 安裝 fetch data  
 npm install axios
 
-https://www.npmjs.com/package/react-loading-skeleton
-
 安裝 skeleton-loading 
 npm install react-loading-skeleton
 
