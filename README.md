@@ -32,6 +32,14 @@ npm install framer-motion
 安裝tailwinds    
 npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
 
-npm install @headlessui/react
+npm install @headlessui/react 解除安裝
+
+
+11/06
+1. 設定好版面，刪減導覽列，全台地圖
+2. 建立非同步用法，useContext or useEffect
+3. 增加過濾條件
+4. 增加分業
+5. 將喜歡的改為我要的版面
 
 npm i -E @material-tailwind/react
