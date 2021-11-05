@@ -33,3 +33,5 @@ npm install framer-motion
 npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
 
 npm install @headlessui/react
+
+npm i -E @material-tailwind/react
