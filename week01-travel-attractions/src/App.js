@@ -4,7 +4,7 @@ import './App.css';
 import Nav from "./Nav";
 import Card from './component/Card';
 import HeroSection from './component/HeroSection';
-import ViewList from './component/ViewList';
+import AllViewList from './component/AllViewList';
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <React.Fragment>
        <HeroSection></HeroSection>
        <Card></Card>
-       <ViewList></ViewList>
+       <AllViewList/>
 
     </React.Fragment>
     
