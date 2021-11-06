@@ -1,10 +1,30 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
+
+const BASE_URL = "";
+const api_key = "";
+const getImage = (path) => ``;
 
 
 
 function ViewList() {
+  //設定 useState
+  const [data, setData] = useState([]);
+
+  // baseURL是你API的主要Domain，之後發請求時只要填相對路徑就可以了
+  const api = axios.create({baseURL: BASE_URL});
+
+  // api.get 是你API的主要Domain，之後發請求時只要填相對路徑就可以了
+  const getUpcoming = api.get("", {params: {api_key}});
+
+  useEffect(() => {
+    getUpcoming.then((res) => {
+      setData(res.data.results);
+      console.log(res.data.results)
+    });
+  }, [])
+
     return (
-    
       <div class="bg-white">
         <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
           <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">Customers also purchased</h2>
