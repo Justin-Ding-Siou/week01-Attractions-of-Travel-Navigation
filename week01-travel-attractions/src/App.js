@@ -14,7 +14,6 @@ function App() {
        <Card/>
        <AllViewList/>
        <AllViewList/>
-
     </React.Fragment>
     
   );

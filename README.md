@@ -36,10 +36,10 @@ npm install @headlessui/react 解除安裝
 
 
 11/06
-1. 設定好版面，刪減導覽列，全台地圖
-2. 建立非同步用法，useContext or useEffect
-3. 增加過濾條件
-4. 增加分業
+1. 設定好版面，刪減導覽列，全台地圖 完成
+2. 建立非同步用法，useContext or useEffect 完成
+3. 增加過濾條件  完成
+4. 增加分頁      
 5. 將喜歡的改為我要的版面
 
 npm i -E @material-tailwind/react
