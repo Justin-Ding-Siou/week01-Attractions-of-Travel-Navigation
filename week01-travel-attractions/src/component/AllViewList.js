@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const BASE_URL = "";
+const BASE_URL = "https://ptx.transportdata.tw/MOTC/v2/Tourism/ScenicSpot";
 const api_key = "";
 const getImage = (path) => ``;
 
