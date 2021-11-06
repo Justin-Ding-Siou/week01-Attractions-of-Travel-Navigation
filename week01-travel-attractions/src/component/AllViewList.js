@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const BASE_URL = "https://ptx.transportdata.tw/MOTC/";
-const api_key = "";
-const getImage = (path) => ``;
+const BASE_URL = "https://ptx.transportdata.tw/MOTC/v2/Tourism/ScenicSpot";
+
 
 
 
@@ -11,17 +10,14 @@ function ViewList() {
   //設定 useState
   const [data, setData] = useState([]);
 
-  // baseURL是你API的主要Domain，之後發請求時只要填相對路徑就可以了
-  const api = axios.create({baseURL: BASE_URL});
-
-  // api.get 是你API的主要Domain，之後發請求時只要填相對路徑就可以了
-  const getUpcoming = api.get("v2/Tourism/ScenicSpot", {params: {api_key}});
 
   useEffect(() => {
-    getUpcoming.then((res) => {
-      setData(res.data.results);
-      console.log(JSON.stringify(res.data.results))
-    });
+    const axiosScenicSpot = async () => {
+      const response = await axios(BASE_URL);
+      setData(response.data);
+      console.log(JSON.stringify(response.data))
+    };
+    axiosScenicSpot();
   }, [])
 
     return (

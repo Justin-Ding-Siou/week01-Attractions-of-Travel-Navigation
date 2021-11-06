@@ -10,8 +10,9 @@ import AllViewList from './component/AllViewList';
 function App() {
   return (
     <React.Fragment>
-       <HeroSection></HeroSection>
-       <Card></Card>
+       <HeroSection/>
+       <Card/>
+       <AllViewList/>
        <AllViewList/>
 
     </React.Fragment>
