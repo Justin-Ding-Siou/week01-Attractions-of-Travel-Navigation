@@ -39,7 +39,12 @@ function AllViewList() {
                 </div>
               </div>              
           ))}
-        </div>  
+        </div>
+        <button 
+          class="bg-green-400 w-full mt-4">
+          查看更多
+        </button>
+        
       </React.Fragment>
       
     );

@@ -14,8 +14,7 @@ function App() {
     <React.Fragment>
        <HeroSection/>
        <AllViewList/>
-       <CompaignViewList>
-       </CompaignViewList>
+       <CompaignViewList></CompaignViewList>
        <FoodViewList></FoodViewList>
     </React.Fragment>
     

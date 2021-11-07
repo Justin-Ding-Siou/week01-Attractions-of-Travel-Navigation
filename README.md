@@ -58,6 +58,32 @@ npm i -E @material-tailwind/react
 3. 上傳檔案
 
 
-1. 先做我要的形狀，其他的再說。完成
-2. 雙北旅遊網站
-3. 增加readmore 資訊
+1. 先做我要的形狀，其他的再說。完成，剩下兩個 (活動和美食)
+2. 雙北旅遊網站，定義好了
+
+11/08
+1.
+API 使用
+活動
+Name,Picture,EndTime,Address,WebsiteUrl,MapUrl
+美食
+Name,Picture,OpenTime,Address,Class,,WebsiteUrl
+景點
+Name,Picture,OpenTime,Keyword,WebsiteUrl,MapUrl
+
+2.
+景點 作詳細的說明
+
+11/09 
+上傳 GITHUB PAGE
+
+11/10
+繳交精神時光屋
+
+
+
+
+等一切結束，寒假在做修改吧!
+1. 增加readmore 資訊
+2. scroll to down 的功能
+3. 將增加三個連結，
