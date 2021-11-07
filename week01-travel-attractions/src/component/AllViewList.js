@@ -6,7 +6,7 @@ const BASE_URL = "https://ptx.transportdata.tw/MOTC/v2/Tourism/ScenicSpot";
 
 
 
-function ViewList() {
+function AllViewList() {
   //設定 useState
   const [data, setData] = useState([]);
 
@@ -49,5 +49,5 @@ function ViewList() {
     );
   }
   
-  export default ViewList;
+  export default AllViewList;
   

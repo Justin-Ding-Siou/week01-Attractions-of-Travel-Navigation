@@ -43,3 +43,16 @@ npm install @headlessui/react 解除安裝
 5. 將喜歡的改為我要的版面
 
 npm i -E @material-tailwind/react
+
+11/06
+1. 建立首頁，串接三種 API
+2. 做景點過濾條件和設定返回路由
+3. 設定分頁和READMORE
+
+
+
+11/07
+1. 做其他兩點的測試
+2. 轉為可上傳機制 
+3. 優化且確定版權
+3. 上傳檔案

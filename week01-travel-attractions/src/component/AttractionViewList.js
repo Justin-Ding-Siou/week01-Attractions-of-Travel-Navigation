@@ -1,10 +1,26 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
+
+const BASE_URL = "https://ptx.transportdata.tw/MOTC/v2/Tourism/ScenicSpot";
 
 
 
-function ViewList() {
+
+function AttractionViewList() {
+  //設定 useState
+  const [data, setData] = useState([]);
+
+
+  useEffect(() => {
+    const axiosScenicSpot = async () => {
+      const response = await axios(BASE_URL);
+      setData(response.data);
+      console.log(JSON.stringify(response.data))
+    };
+    axiosScenicSpot();
+  }, [])
+
     return (
-    
       <div class="bg-white">
         <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
           <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">Customers also purchased</h2>
@@ -33,5 +49,5 @@ function ViewList() {
     );
   }
   
-  export default ViewList;
+  export default AttractionViewList;
   
