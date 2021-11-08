@@ -80,7 +80,30 @@ Name,Picture,OpenTime,Keyword,WebsiteUrl,MapUrl
 11/10
 繳交精神時光屋
 
+0. 設定api 路由
+API 使用
+1. 活動
+Name,Picture,EndTime,Address,WebsiteUrl,MapUrl
+2. 美食
+Name,Picture,OpenTime,Address,Class,,WebsiteUrl
+3. 景點
+Name,Picture,OpenTime,Keyword,WebsiteUrl,MapUrl
 
+1.   三個 button , 景點為首頁，會切換路由
+參考我的首頁
+https://ithelp.ithome.com.tw/m/articles/10247575?sc=pt
+
+2.  每次都會有 loading的效果
+https://tailwindcss.com/docs/animation
+
+3. 分頁效果
+https://blog.logrocket.com/pagination-components-react-tailwind-css/
+
+4.  那個分類底下才會有搜尋效果
+到七點前完成✅
+https://tailwindui.com/components/application-ui/elements/dropdowns
+
+https://www.digitalocean.com/community/tutorials/react-react-select
 
 
 等一切結束，寒假在做修改吧!
